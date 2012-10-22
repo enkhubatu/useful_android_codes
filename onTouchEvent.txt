@@ -1,0 +1,9 @@
+﻿//Андройд-той гар утасны дэлгэцэн дээр хүрэхэд энэ эвент идэвхижинэ.
+@Override
+public boolean onTouchEvent(MotionEvent event) {
+  	if(event.getAction() == MotionEvent.ACTION_DOWN) {
+			//Энд кодоо бич...
+   	}
+    	
+   	return true;
+}
