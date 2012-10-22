@@ -1,0 +1,3 @@
+﻿//Андройдийн EditText-ийг өөрчлөхгүй боломж болгох код 
+EditText etTemp = (EditText) findViewById(R.id.chosen_edit_text);
+etTemp.setEnabled(false);
